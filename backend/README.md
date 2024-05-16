@@ -35,8 +35,8 @@
 	DATABASE_URL='postgresql://myuser:mypassword@postgres_ct:5432/mydb'  
   
 	API42_USER_AUTH="https://api.intra.42.fr/oauth/token"  
-	* UID=""  
-	* SECRET=""  
+	UID=""  
+	SECRET=""  
 	API42_USER_INFO="https://api.intra.42.fr/v2/me"  
 	JWT_SECRET="paz"  
 	HOST_URL="http://localhost:3001"  
@@ -44,7 +44,7 @@
 * Frontend .env file:  
   
 	PORT=3001  
-	* REACT_APP_AUTHCODE_URL=''  
+	REACT_APP_AUTHCODE_URL=""    
 	REACT_APP_HOST_URL='http://localhost:3000'  
   
 * Root .env file:  
