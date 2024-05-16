@@ -24,38 +24,37 @@
 
 # RUN
 
-* Install docker
+* Install docker  
+  
+* Create .env files  
+  
+	***UID, SECRET and REACT_APP_AUTHCODE_URL have to be updated according to the 42 API**  
 
-* Create .env files
+* Backend .env file:  
 
-	***UID, SECRET and REACT_APP_AUTHCODE_URL have to be updated according to the 42 API**
-
-* Backend .env file:
-
-	DATABASE_URL='postgresql://myuser:mypassword@postgres_ct:5432/mydb'
-
-	API42_USER_AUTH="https://api.intra.42.fr/oauth/token"
-	* UID=""
-	* SECRET=""
-	API42_USER_INFO="https://api.intra.42.fr/v2/me"
-	JWT_SECRET="paz"
-	HOST_URL="http://localhost:3001"
-
-* Frontend .env file:
-
-	PORT=3001
-	* REACT_APP_AUTHCODE_URL=''
-	REACT_APP_HOST_URL='http://localhost:3000'
-
-
-* Root .env file:
-
-	POSTGRES_USER=myuser
-	POSTGRES_PASSWORD=mypassword
-	POSTGRES_DB=mydb
-
-* Run docker-compose up
-
+	DATABASE_URL='postgresql://myuser:mypassword@postgres_ct:5432/mydb'  
+  
+	API42_USER_AUTH="https://api.intra.42.fr/oauth/token"  
+	* UID=""  
+	* SECRET=""  
+	API42_USER_INFO="https://api.intra.42.fr/v2/me"  
+	JWT_SECRET="paz"  
+	HOST_URL="http://localhost:3001"  
+  
+* Frontend .env file:  
+  
+	PORT=3001  
+	* REACT_APP_AUTHCODE_URL=''  
+	REACT_APP_HOST_URL='http://localhost:3000'  
+  
+* Root .env file:  
+  
+	POSTGRES_USER=myuser  
+	POSTGRES_PASSWORD=mypassword  
+	POSTGRES_DB=mydb  
+  
+* Run docker-compose up  
+  
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
